@@ -20,7 +20,10 @@ work under those cirumstances. You see a pixel salad and the brain won't get the
 there work best.
 
 On the other hand, with some diffusor (like: a thin sheet of white plastic) between the matrix and the eye, and seen from some 
-meters distance dithered images show so much more. A suitable diffusor is available at thingiverse and the bash script here uses 
+meters distance dithered images show so much more. 
+A suitable diffusor is available at thingiverse https://www.thingiverse.com/thing:4159218 
+
+The bash script here uses 
 imagemagick's convert to resize images, set a black background and output the rgb which xxd dumps into a temp file. Bash opens that 
 file, takes the rgb values as hex from it and writes them line by line in reversed order, formatted as c variable.
 
