@@ -38,5 +38,12 @@ const long pic[]  ={
 };
 
 You can copy/paste it in your Arduino source code or write it to flash and read it at runtime or whatever. The ESP8266 has 
-flash space for hundreds of images.
+flash space for hundreds of images. And with this script you can start filling it.
+
+## Dependencies
+- bash --version gives  GNU bash, Version 5.0.11(1)-release (x86_64-pc-linux-gnu) on my box, I would not expect it to behave much different on older bash versions but don't know.
+- ImageMagick 7.0.9-22
+- xxd V1.10 27oct98 by Juergen Weigert
+
+
 
